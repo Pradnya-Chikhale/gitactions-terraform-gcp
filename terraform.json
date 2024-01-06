@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "vital-petal-409810",
+  "private_key_id": "01675573f0d822a8de7e7b748fc87eda82660089",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwxXq6ojomQXq3\nN+rjf4CyN6X7NXtSJ7iEyMEKsv8Dlllotw6GPtYGc8YrXzuBFSADweMgJUzsdaLn\nNsoIWSnQFMZwTMU1GE54pknoUWYJsDlXJGjsvCX5uUe2iKdH2wgHiLzVb8cDhwnq\na1699i/jKjUaEz8ppFApdVeFB2v9fX89Ig6T6SRRJ6LscUWYzQed7mXGwdeqqb9D\nvYSA+UwxvJKhG6FTPt1lASZk4UoTQf0vFbobwz/OmY9Wrg72IEi0HPtEIIyIL94l\n/H5BJsN5tBwSqU16PvEN3kZwmA27jxe2bzeiQmWJZ0NuwYuZJ+RqhuK2/NN3/o8x\nuToeHQgjAgMBAAECggEAUwEvy3JAttT5YA4gPBoTXtv1kvt+gEnJgYRY7QK270LK\nkfqfFddsnVQAwj3yDX9TbKA+28nYEJJ+X26hOIFRunT+5x2NXoye0FVZD/8k2DjI\n/AvLPxpsBJKFQ4dwcTO+1fbVoK1feF8Q/2PSdYWj39niXG+cMZwHzifc5EjjYwAi\nkuXXFddVD02TdFAOpYj13B1sb5wOHQWwcuIYeh0ifnXOvMb9Nhh2ivquHRLDl/6X\nKHPzl2TUOviB2TDHB2VpP/5mlk+tqFZPL4p0Xg7xnCwCMBgGHye0m73PEZUz7DxV\nIecATK7WEt3FPWUXB5L1V3xR5reUAPF7gKY5my9ARQKBgQDXYU7BJ1GSXw69xXe2\nib7nt3mcw7IWrm/yWmmcLf7yjhH+vtTrEXFYxKrcbie/g07H2U+rNQFaTZUM/TSa\nY/nYQx+W64Db300saUyZnPfA7rG6S4HHv+Qxa5JiSjrMUpjdh8ZKJtgksR1IAZqP\nHamesNXLUcKpWraPI+j4ZBczxwKBgQDSHB5J5T7BOHcZiXUYEcZIr9hC9BeDczp/\n3JdbnhAaYLwKnBi3llzHqPlt1SA/nZy5bw3A+dQ67o7mGnIWUjMUGDsK0jfYn5GV\n2XCkPJpkcT+/QHZSIxtZNFfBZhaqeB7slhZDxZ42/3J043Kb/rGryiyZG1GPNo/1\na99vv0xQxQKBgQC0TfHwIUpYjtt4YudlGMuIkEBuzCU6d62f5bCj3p2f0O+fo4H7\niA6rkXi4MD92RCafh3z6htUrE+fDh/WRikCOmyLG5UBq0PV6SGyn7JA8I5cFrlBn\nOG2AMd3KCvpOMpdmXVPSn9IyZVNuBGmvhdWJ0+Am5btgq2BJVHaj+qax4QKBgQC/\nEqEc1GRodQAichXRaMCoc3m5EZ+chBqsEqB2ydydEGGRSHlV42DGlc0Xa90i3SOc\novigCNJPMYk0itI7qE8ZNBvlcF0nG53a513/jbleJHszYtz3P0PssKQplbyBFDIT\nNz5SLZH/M/kTgZBFeq56qqY6KlTWZ2ktaAdO6WnufQKBgDUyG9YJm1wLnt3EktPb\nQ39fCRWQ2vHYfCWc5tynYqijtUmI6trF9ZFpSNL7raTaS9L1N9kjoo7jx0ZRo6JT\nAhd7Lotyt+rHIo0bvebyuGA0vJhaKP5sc9PKunXLUiPQCYcM+4vwD1lV/RQlmVIg\nAtJ6KPKZgaM9pxRmNOEb4LvU\n-----END PRIVATE KEY-----\n",
+  "client_email": "github-actions@vital-petal-409810.iam.gserviceaccount.com",
+  "client_id": "108166853375428875549",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40vital-petal-409810.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
