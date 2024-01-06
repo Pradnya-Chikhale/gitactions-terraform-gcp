@@ -21,7 +21,7 @@ steps:
  docker push gcr.io/${{ secrets.vital-petal-409810 }}/gitactions-terraform-app
 - name: Deploy to Cloud Run
  run: |
- gcloud run deploy your-django-app \
- - image gcr.io/${{ secrets.vital-petal-409810 }}/gitactions-terraform-app \
- - region us-central1 \
- - platform managed
+ gcloud run deploy gitactions-terraform-app \
+  --image gcr.io/${{ secrets.vital-petal-409810 }}/gitactions-terraform-app \
+  --region us-central1 \
+  --platform managed
