@@ -29,6 +29,6 @@ jobs:
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy gitactions-terraform-app \
-            --image gcr.io/${{ vital-petal-409810 }}/gitactions-terraform-app \
+            --image gcr.io/${{ secrets.vital-petal-409810 }}/gitactions-terraform-app \
             --region us-central1 \
             --platform managed
