@@ -14,7 +14,7 @@ jobs:
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
           project_id: ${{ secrets.GCP_PROJECT_ID }}
-          workload_identity_provider: 'projects/123456789/locations/global/workloadIdentityPools/my-pool/providers/my-provider'
+          #workload_identity_provider: 'projects/123456789/locations/global/workloadIdentityPools/my-pool/providers/my-provider'
           service_account: 'github-actions@vital-petal-409810.iam.gserviceaccount.com'
       - name: Set up Google Cloud SDK
         uses: google-github-actions/setup-gcloud@v2
