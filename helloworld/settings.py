@@ -25,10 +25,7 @@ SECRET_KEY = 'django-insecure-kh31zfbn64f=o5dveo_w$10p(kbzkjcc&ahz(@t6724rjft=k%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'https://django-app-gqv2xbcamq-uc.a.run.app'
-    'https://gitactions-terraform-app-gqv2xbcamq-uc.a.run.app'
-]
+ALLOWED_HOSTS = ['django-app-gqv2xbcamq-uc.a.run.app','gitactions-terraform-app-gqv2xbcamq-uc.a.run.app']
 
 CORS_ALLOW_CREDENTIALS = True
 
