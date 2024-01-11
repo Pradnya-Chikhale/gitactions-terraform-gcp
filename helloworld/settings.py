@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-kh31zfbn64f=o5dveo_w$10p(kbzkjcc&ahz(@t6724rjft=k%
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'django-app-gqv2xbcamq-uc.a.run.app'
+    'https://django-app-gqv2xbcamq-uc.a.run.app'
     'https://gitactions-terraform-app-gqv2xbcamq-uc.a.run.app'
 ]
 
