@@ -36,7 +36,7 @@ jobs:
         env:
           GIT_TAG: v0.1.0
         run: |
-          docker tag $IMAGE_NAME:latest gcr.io/${{ secrets.GCP_PROJECT_ID }}/gitactions-terraform-app:latest
+          #docker tag $IMAGE_NAME:latest gcr.io/${{ secrets.GCP_PROJECT_ID }}/gitactions-terraform-app:latest
           docker tag $IMAGE_NAME:latest gcr.io/${{ secrets.GCP_PROJECT_ID }}/gitactions-terraform-app:$GIT_TAG
     
           docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/gitactions-terraform-app:$GIT_TAG
