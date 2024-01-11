@@ -22,15 +22,24 @@ jobs:
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           export_default_credentials: true
-      
 
-      - name: Build and push Docker image
+      - name: Build Docker image
         run: |
           docker build -t gcr.io/${{ secrets.GCP_PROJECT_ID }}/gitactions-terraform-app .
-          docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/gitactions-terraform-app
+      
+      - name: Configure Docker Client
+        run: |-
+          gcloud auth configure-docker --quiet
+          gcloud auth configure-docker us-west2-docker.pkg.dev --quiet
+
+      - name: push Docker image
+        env:
+          GIT_TAG: v0.1.0
+        run: |
+          docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/gitactions-terraform-app:$GIT_TAG
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy gitactions-terraform-app \
-            --image gcr.io/${{ secrets.GCP_PROJECT_ID }}/gitactions-terraform-app \
+            --image gcr.io/${{ secrets.GCP_PROJECT_ID }}/gitactions-terraform-app:$GIT_TAG \
             --region us-central1 \
             --platform managed
